@@ -111,12 +111,10 @@ body{
 .box_2{
     margin: auto;
     margin-top: 48px;
-    border: 1px solid red;
 }
 .image_person{
     max-width: 73%;
     height: 480px;
-    border: 1px solid red;
 }
 .box_2_text{
     width: 100%;
