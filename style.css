@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Inter";
+    src: url(font/Inter-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /*font*/
+    --primary_font:"Inter";
+    /*font end*/
+    /*color*/
+    
+    --bg-Very-dark-grayish-blue: #374151;
+    --bg-very-dark: #111827;
+    --bg-Light-grayish-blue: #d1d5db;
+    --bg-BLUE: #1f2937;
+    --bg-black: #000000;
+    --bg-Alice-Blue: #F9FAFB;
+    /*color end*/
+}
+body{
+    background-color: var(--bg-very-dark);
+}
+.section_text_box{
+    margin: auto;
+    margin-top: 96px;
+    width: 125px;
+    height: 28px;
+    padding: 4px, 20px, 4px, 20px;
+    border-radius: 12px;
+    background-color: var(--bg-Very-dark-grayish-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_text_box_style{
+    margin: auto;
+    color: var(--bg-Light-grayish-blue);
+    font-family: var(--primary_font);
+    font-size: 14px;
+    font-weight: 500;
+}
+.section_2_text_box_2{
+    margin: auto;
+    margin-top: 16px;
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_2_text_box_2_style{
+    margin: auto;
+    color: var(--bg-Light-grayish-blue);
+    font-family: var(--primary_font);
+    font-size: 20px;
+    font-weight: 400;
+}
+.box{
+    margin: auto;
+    margin-top: 48px;
+    height: 100%;
+    padding: 48px;
+    border-radius: 12px;
+    background-color: var(--bg-BLUE);
+    border: rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.box_image{
+    width: 64px;
+    height: 64px;
+}
+.text_box_3_style{
+    margin-top: 24px;
+    color: var(--bg-Light-grayish-blue);
+    font-family: var(--primary_font);
+    font-size: 16px;
+    font-weight: 400;
+}
+.text_person_name_box{
+    margin-top: 24px;
+    width: 100%;
+    height: 28px;
+}
+.text_person_name_box_style{
+    color: var(--bg-Alice-Blue);
+    font-family: var(--primary_font);
+    font-size: 20px;
+    font-weight: 600;  
+}
+.person_add_text{
+    margin-top: 4px;
+    width: 100%;
+    height: 20px;
+}
+.person_add_text_style{
+    color: var(--bg-Light-grayish-blue);
+    font-family: var(--primary_font);
+    font-size: 14px;
+    font-weight: 400;
+}
+#section_text_box_about_me{
+    width: 105px;
+}
+.box_charcho{
+    margin-top: 48px;
+}
+.box_2{
+    margin: auto;
+    margin-top: 48px;
+    border: 1px solid red;
+}
+.image_person{
+    max-width: 73%;
+    height: 480px;
+    border: 1px solid red;
+}
+.box_2_text{
+    width: 100%;
+}
+.box_2_text_style{
+    color: var(--bg-Alice-Blue);
+    font-family: var(--primary_font);
+    font-size: 30px;
+    font-weight: 600; 
+}
+.box_2_text_2{
+    margin-top: 24px;
+}
+.box_2_text_3{
+    margin-top: 16px;
+}
+.box_2_text_4{
+    margin-top: 16px;
+    display: flex;
+    gap: 10px;
+}
+ul{
+    width: 297px;
+}
+.box_2_text_3{
+    margin-top: 16px;
+}
+@media screen and (max-width:768px) {
+    .image_person{
+        max-width: 100% !important;
+    }
+}
